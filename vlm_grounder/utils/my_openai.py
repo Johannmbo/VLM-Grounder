@@ -308,7 +308,9 @@ def setup_openai(model_name, is_eval=False):
     # * openai.api_key = os.getenv('OPENAI_API_KEY')
 
     # * OPENAI_API_KEY
-    api_key = "your_api_key"
+    api_key = "johannmbongo@gmail.com"
+    os.environ["OPENAI_API_KEY"] = api_key
+    os.environ["OPENAI_BASE_URL"] = "http://95.163.236.3:5555"
 
     os.environ["OPENAI_API_KEY"] = api_key
 
